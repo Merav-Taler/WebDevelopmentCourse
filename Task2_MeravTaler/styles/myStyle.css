@@ -1,0 +1,78 @@
+
+body 
+{
+  
+font-family: "trebuchet ms", arial, sans-serif;
+  direction:rtl;
+    background-image: url("../images/444444.jpg");
+    
+    background-repeat:no-repeat;
+       
+}
+#container{
+   width: 900Px;
+  margin: 0px auto 0px auto;
+  text-align:center;
+}
+section{
+    margin-top:17px;
+    padding-bottom:20pt;
+     color:#951CA5; 
+}
+h1{
+    font-size:35pt;
+    color:#BC4DDE;
+    font-weight:bold;    
+
+}
+
+h2{
+    font-size:19pt;
+    color:#4D2A58;
+    
+    font-weight:bold;
+}
+ol{
+    font-size:17pt;
+    color:#951CA5;
+       list-style-type:none;
+}
+#instagram{
+    height:50pt;
+    width:50pt;
+    margin-top:15pt;
+     padding-right:30px;
+     
+}
+#facebook{
+    height:70px;
+    width:70px;
+    margin-top:15px;
+     padding-right:30px;
+   
+
+}
+#google {
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+     padding-right:30px;
+}
+
+#instagram:hover {
+    width:80PX;
+    height:80PX;
+    margin-bottom: 30px;
+}
+#google:hover {
+    width:80PX;
+    height:80PX;
+    margin-bottom: 30px;
+}
+#facebook:hover {
+    width:80PX;
+    height:80PX;
+    margin-bottom: 30px;
+}
+
+  
