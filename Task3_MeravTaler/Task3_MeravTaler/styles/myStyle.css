@@ -1,0 +1,164 @@
+
+body {
+    font-family: "trebuchet ms", arial, sans-serif;
+    direction: rtl;
+    background-image: url("../images/444444.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 900Px;
+    margin: 0px auto 0px auto;
+}
+
+
+
+h1 {
+    font-size: 35pt;
+    color: #BC4DDE;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20pt;
+    color: #4D2A58;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.revach {
+    margin-top: 30px;
+}
+
+#list {
+    margin-top: 20px;
+}
+
+ol {
+    font-size: 17pt;
+    color: #951CA5;
+    list-style-type: none;
+}
+
+#instagram {
+    height: 50pt;
+    width: 50pt;
+    margin-top: 15pt;
+    padding-right: 150px;
+  float:initial;
+}
+
+#facebook {
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+    padding-right: 50px;
+}
+#google
+{
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+    padding-right: 50px;
+}
+
+#instagran:hover {
+    width: 80PX;
+    height: 80PX;
+    position: relative;
+                 }
+
+#google:hover {
+    width: 80PX;
+    height: 80PX;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#facebook:hover {
+    width: 80PX;
+    height: 80PX;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+nav ul {
+    padding: 0px;
+    list-style: none;
+    width: 570px;
+}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            display: block;
+            background-color: #BC4DDE;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+        }
+
+
+
+            nav ul li a:hover {
+                background-color: #26c6ea;
+            }
+
+            nav ul li a:active {
+                background-color: peachpuff;
+            }
+
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+            width: 120px;
+        }
+
+footer {
+    position: absolute;
+    height: 150px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+    background-color: #26c6ea;
+    text-align: center;
+}
+
+section {
+    margin-top: 17px;
+    padding-bottom: 20pt;
+    color: #951CA5;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+#intro {
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display:inline-block;
+    width:700px;
+
+}
