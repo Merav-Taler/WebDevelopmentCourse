@@ -1,0 +1,21 @@
+@font-face {font-family:'OpenSansHebrew-Regular';
+    src:url('../fonts/OpenSansHebrew-Regular.woff') format('woff');           
+    font-weight:normal;
+    font-style:normal;}
+	
+@font-face {font-family:'OpenSansHebrew-Bold';
+    src:url('../fonts/OpenSansHebrew-Bold.woff') format('woff');           
+    font-weight:normal;
+    font-style:normal;}
+		
+@font-face {font-family:'OpenSansHebrew-ExtraBold';
+    src:url('../fonts/OpenSansHebrew-ExtraBold.woff') format('woff');           
+    font-weight:normal;
+    font-style:normal;}
+	
+@font-face {font-family:'OpenSansHebrew-Light';
+    src:url('../fonts/OpenSansHebrew-Light.woff') format('woff');           
+    font-weight:normal;
+    font-style:normal;}
+		
+strong{font-weight:normal;font-family:'OpenSansHebrew-Bold';}
