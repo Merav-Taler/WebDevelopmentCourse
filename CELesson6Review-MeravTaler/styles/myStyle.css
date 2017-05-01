@@ -1,0 +1,192 @@
+body {
+    direction: rtl;
+}
+
+div {
+    margin: 10px 5px;
+    clear: both;
+}
+
+#recpie li {
+    margin-right: 20px;
+}
+
+/*חלק ב' - CSS */
+
+/*חלק ב' - תרגיל 1 - מזלות*/
+#zodiac {
+    background-image: url('../images/Zodiac.jpg');
+    width: 150px;
+    height: 150px;
+    background-position: 450px;
+}
+
+
+/*חלק ב' - תרגיל 2 - aside*/
+#aside {
+    text-align: justify;
+    border: solid 1px black;
+    height: 230px;
+    width: 400px;
+}
+
+    #aside h1 {
+        text-align: center;
+        color: black;
+        border: none;
+        background-color: aquamarine;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #aside p {
+        padding: 10px 20px;
+    }
+
+        #aside p:first-letter {
+            color: deeppink;
+            font-size: 18px;
+        }
+
+#decoration {
+    background-image: url('../images/decorative.png');
+    height: 60px;
+    width: 385px;
+    background-repeat: no-repeat;
+    background-size: 380px 15px;
+}
+
+/*חלק ב' - תרגיל 3 - אינסטגרם*/
+
+
+#instegram a {
+    height: 100px;
+    width: 100px;
+    background-image: url('../images/instegram.png');
+    background-position: 100px;
+    display: inline-block;
+}
+
+    #instegram a:hover {
+        background-position: 0px;
+    }
+/*חלק ב' - תרגיל 4 - זברה*/
+#zebra {
+    width: 168px;
+    height: 248px;
+    border: solid 3px green;
+    background-color: mediumpurple;
+    color: white;
+}
+
+    #zebra ul {
+        list-style-type: none;
+        }
+
+    li:nth-child(Even){
+        font-size:12pt;
+        padding: 5px 40px;
+    }
+
+    li:nth-child(odd){
+        font-size:20pt;
+        padding:5px;
+    }
+
+
+    #zebra:hover {
+    width: 168px;
+    height: 248px;
+    border: solid 3px mediumpurple ;
+    background-color: forestgreen;
+    color: white;
+}
+      #zebra:hover li:nth-child(odd){
+        font-size:12pt;
+        padding: 5px 40px;
+    }
+
+        #zebra:hover li:nth-child(even) {
+            font-size: 20pt;
+            padding: 5px;
+        }
+ /*חלק ב' - תרגיל 5 - זומבי*/
+ 
+#zombie{
+    background-image: url('../images/Zombie.png');
+    width: 100px;
+    height: 156px;
+    background-position: 200px;
+        }
+#zombie:hover{
+      background-position: 100px;
+        }
+#zombie:active{
+      background-position: 300px;
+        }
+/*חלק ג' - HTML+CSS */
+
+
+/*חלק ג' - תרגיל 1 - תגים סמנטיים*/
+#semantic{
+    background-image: url('../images/frame.jpg');
+    height:500px;
+    width:600px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    
+
+    }
+
+#semantic h1{
+    font-size: 30px;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:13px;
+}
+    #semantic p {
+        text-align: justify;
+        font-size:20px;
+    }
+
+    #semantic article{
+        padding:150px;
+    }
+
+/*חלק ג' - תרגיל 2 - האתר של דני*/
+
+
+
+
+/*חלק ד' - תפריטי ניווט*/
+
+/*חלק ד' - תרגיל 1 - אתר חדשות*/
+
+
+
+
+
+/*חלק ד' - תרגיל 2 - hit*/
+
+
+
+
+
+/*חלק ה' - טבלאות*/
+
+/*חלק ה' - תרגיל 1 - ערבוב צבעים*/
+
+
+
+/*חלק ה' - תרגיל 2 - בישול ירקות*/
+
+
+
+/*חלק ה' - תרגיל 3 - ארוחות העשר של דני*/
+
+
+
+
+/*חלק ו' - טפסים*/
+
+/*חלק ו'-תרגיל 1 HT5C3 */
