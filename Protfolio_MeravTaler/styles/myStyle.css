@@ -1,0 +1,413 @@
+body {
+    direction: rtl;
+    background-image: url('../images/background1.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-size: 100%;
+    background-size: 960px;
+    margin: 3em;
+    font-family: 'Varela Round', sans-serif, Arial;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+}
+
+/*רקע בעמודים פנימיים*/
+
+.bg2 {
+    background-image: url(../images/INBackground1.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px;
+    background-position-x: center;
+}
+
+
+#bg3 {
+    background-image: url(../images/INBackground2.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: 960px;
+    background-position-x: center;
+}
+
+
+/*עיצוב דף הבית */
+h1 {
+    text-align: center;
+    color: rgb(255, 145, 145);
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.3);
+    width: 515px;
+    text-shadow: rgb(3, 3, 3) 4px 4px 4px;
+    margin-right: 322px;
+    margin-top: -27px;
+}
+
+#TxtNote {
+    -webkit-transform: rotate(7deg);
+    margin-top: 50px;
+    line-height: 45px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* עיצוב כותרת פנימית תפריט ניווט דף הבית */
+.insideTitle {
+    font-size: 100%;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+/*עיצוב תפריט ניווט דף הבית */
+#homepagenav {
+    margin-right: -51px;
+    margin-top: 86px;
+}
+
+#homepage, li {
+    list-style: none;
+}
+
+#homepage {
+    overflow: hidden;
+    padding: 10px;
+    width: 800px;
+}
+
+    #homepage li a {
+        text-decoration: none;
+        color: #000;
+        background: #ffc;
+        display: block;
+        height: 10em;
+        width: 4em;
+        padding: 1em;
+        -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+        -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        -moz-transition: -moz-transform .15s linear;
+        -o-transition: -o-transform .15s linear;
+        -webkit-transition: -webkit-transform .15s linear;
+    }
+
+    #homepage li {
+        margin: 1em;
+        float: left;
+    }
+
+        #homepage li h2 {
+            font-size: 140%;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        #homepage li p {
+            font-size: 180%;
+        }
+
+        #homepage li a {
+            -webkit-transform: rotate(-6deg);
+            -o-transform: rotate(-6deg);
+            -moz-transform: rotate(-6deg);
+        }
+
+            #homepage li a h2 {
+                text-decoration: none;
+            }
+
+
+
+        #homepage li:nth-child(even) a {
+            -o-transform: rotate(4deg);
+            -webkit-transform: rotate(4deg);
+            -moz-transform: rotate(4deg);
+            position: relative;
+            top: 5px;
+            background: #cfc;
+        }
+
+        #homepage li:nth-child(3n) a {
+            -o-transform: rotate(-3deg);
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+            position: relative;
+            top: -5px;
+            background: #ccf;
+        }
+
+        #homepage li:nth-child(5n) a {
+            -o-transform: rotate(5deg);
+            -webkit-transform: rotate(5deg);
+            -moz-transform: rotate(5deg);
+            position: relative;
+            top: -10px;
+            background: #ffc;
+        }
+
+        #homepage li a:hover, ul li a:focus {
+            box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+            -moz-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+            -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+            -webkit-transform: scale(1.25);
+            -moz-transform: scale(1.25);
+            -o-transform: scale(1.25);
+            position: relative;
+            z-index: 5;
+        }
+
+ol {
+    text-align: center;
+}
+
+    ol li {
+        display: inline;
+        padding-right: 1em;
+    }
+
+        ol li a {
+            color: #fff;
+        }
+
+#MyPic, #MyNote {
+    background-image: url('../images/Me.png');
+    background-size: 220px;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 220px;
+    float: left;
+    margin-left: 79px;
+}
+
+#MyNote {
+    background-image: url('../images/Note.png');
+    float: right;
+    margin-right: 97px;
+}
+
+
+/*עיצוב נעץ תפריט ניווט דף הבית*/
+
+
+#homepagenav #homepage li a .pin:nth-child(1n) {
+    background-image: -moz-radial-gradient(35px 35px 35deg, circle cover, red 50%, black 100%);
+    background-image: -webkit-radial-gradient(35px 35px, circle cover, red, black);
+    background-image: radial-gradient(red 50%, black 100%);
+}
+
+.pin {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.55);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.55);
+    box-shadow: 0 3px 6px rgba(0,0,0,.55);
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+
+
+
+/*תפריט ניווט פנימי */
+.navbar {
+    float: right;
+}
+
+    .navbar .inside-nav, li {
+        list-style: none;
+    }
+
+    .navbar .inside-nav {
+        margin-right: 52px;
+        display: grid;
+    }
+
+        .navbar .inside-nav li a {
+            color: #000;
+            background: #ffc;
+            display: block;
+            width: 130px;
+            height: 32px;
+            padding-top: 10px;
+            -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+            box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+            -moz-transition: -moz-transform .15s linear;
+            -o-transition: -o-transform .15s linear;
+            -webkit-transition: -webkit-transform .15s linear;
+            text-decoration: none;
+        }
+
+        .navbar .inside-nav li {
+            margin: 1em;
+            float: left;
+        }
+
+            .navbar .inside-nav li p {
+                font-size: 180%;
+            }
+
+            .navbar .inside-nav li h2 {
+                font-size: 20pt;
+                padding-bottom: 10px;
+            }
+
+            .navbar .inside-nav li a {
+                -webkit-transform: rotate(-6deg);
+                -o-transform: rotate(-6deg);
+                -moz-transform: rotate(-6deg);
+                font-weight: normal;
+                text-align: center;
+            }
+
+                .navbar .inside-nav li a:hover, ul li a:focus {
+                    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+                    -moz-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+                    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+                    -webkit-transform: scale(1.25);
+                    -moz-transform: scale(1.25);
+                    -o-transform: scale(1.25);
+                    position: relative;
+                    z-index: 5;
+                }
+
+                .navbar .inside-nav li a.selected {
+                    background-color: hotpink;
+                }
+
+
+
+
+/* עיצוב כותרות בעמודים פנימיים*/
+
+
+.TxtSec {
+    margin-right: 377px;
+    margin-top: 29px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 22px;
+    font-size: 24px;
+}
+
+
+/* עיצוב  עמוד פורטרט עצמי*/
+
+
+#PortretPic {
+    margin-right: 253px;
+}
+
+    #PortretPic:hover {
+        opacity: 0.7;
+    }
+
+
+
+
+/* עיצוב עמוד שיפור תמונה */
+#Photos {
+    margin-top: 37px;
+}
+
+#FixPic {
+    float: right;
+    margin-right: 100px;
+}
+
+
+    #FixPic:hover {
+        opacity: 0.7;
+    }
+
+#FixPicA {
+    margin-left: 130px;
+    float: left;
+}
+
+    #FixPicA:hover {
+        opacity: 0.7;
+    }
+
+
+
+
+/* עיצוב עמוד פרויקט גמר */
+
+#Final{
+    margin-top:80px;
+
+
+
+}
+#FinalPicA {
+    float: right;
+    margin-right: 315px;
+}
+
+    #FinalPicA:hover {
+        opacity: 0.7;
+    }
+
+
+#Video {
+    margin-top: 27px;
+    margin-right: 312px;
+}
+
+#FinalPic {
+    margin-left: 130px;
+    float: left;
+}
+
+    #FinalPic:hover {
+        opacity: 0.7;
+    }
+
+
+#PhotosFinal {
+    margin-top: 37px;
+}
+
+
+
+/* עיצוב עמוד צור קשר */
+
+
+Form {
+    padding-top: 13px;
+    padding-right: 377px;
+}
+
+
+#feedback {
+    margin-right: 200px;
+}
+
+input[type ='text'], input[type ='submit'], #yourText {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Send {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    color: black;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+#Audio {
+    margin-right: 329px;
+}
