@@ -61,7 +61,7 @@
             border: 2px dotted #ffb4db;
         }
 
-        #skip a:hover {
+        #skip a:hover, #skip a:focus {
             text-decoration: underline;
         }
 
@@ -124,7 +124,7 @@
     padding-right: 30px;
 }
 
-.MainNav #mainUl li:hover {
+.MainNav #mainUl li:hover, .MainNav #mainUl li:focus {
     background-color: #F0F0F3;
 }
 
@@ -136,15 +136,15 @@
     float: none;
 }
 
-.MainNav li:hover {
+.MainNav li:hover, .MainNav li:focus {
     background-color: #EFF0F3;
 }
 
-    .MainNav li:hover li a:hover {
+    .MainNav li:hover li a:hover, .MainNav li:hover li a:focus {
         background-color: #EFF0F3;
     }
 
-.MainNav #mainUl li ul li a:hover {
+.MainNav #mainUl li ul li a:hover, .MainNav #mainUl li ul li a:focus {
     background-color: #BED4CA;
 }
 
@@ -227,7 +227,7 @@ ul:after {
     color: black;
 }
 
-    .btn-warning:hover {
+    .btn-warning:hover, .btn-warning:focus {
         color: black;
     }
 
@@ -311,7 +311,7 @@ ul:after {
     text-decoration: none;
 }
 
-    .HPbubbles:hover {
+    .HPbubbles:hover,  .HPbubbles:focus {
         background-image: url(../images/BubbleHove1.png);
         color: black;
     }
@@ -343,7 +343,7 @@ ul:after {
     margin-top: 33px;
 }
 
-p, h4{
+p, h4 {
     font-size: 14pt;
 }
 
@@ -693,8 +693,7 @@ footer {
         color: black;
     }
 
-        .FooterNav ul li a:hover,
-        .bread-crumb ul li a:hover {
+        .FooterNav ul li a:hover, .bread-crumb ul li a:hover, .FooterNav ul li a:focus, .bread-crumb ul li a:focus {
             text-decoration: underline;
         }
 /* Grow Rotate */
@@ -728,6 +727,23 @@ form {
     }
 
 
+#Send {
+    width: 120px;
+    height: 35px;
+    color: black;
+    background-color: #d58512;
+    margin-top: 62px;
+    margin-right: -187px;
+    font-family: 'Rubik', sans-serif;
+}
+
+    #Send:hover, #Send:focus {
+        color: black;
+        background-color: #ec971f;
+    }
+
+
+/*עיצוב עמוד מפת אתר*/
 .SiteMap-Page article {
     margin-bottom: 40px;
 }
