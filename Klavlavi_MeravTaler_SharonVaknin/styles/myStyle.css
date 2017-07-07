@@ -343,8 +343,7 @@ ul:after {
     margin-top: 33px;
 }
 
-
-p {
+p, h4{
     font-size: 14pt;
 }
 
@@ -410,7 +409,7 @@ p, h3 {
 
     #up.scrolled {
         opacity: 1;
-        top: 650px;
+        top: 565px;
     }
 
 
