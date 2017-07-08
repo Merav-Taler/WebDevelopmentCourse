@@ -311,7 +311,7 @@ ul:after {
     text-decoration: none;
 }
 
-    .HPbubbles:hover,  .HPbubbles:focus {
+    .HPbubbles:hover, .HPbubbles:focus {
         background-image: url(../images/BubbleHove1.png);
         color: black;
     }
@@ -748,16 +748,18 @@ form {
     margin-bottom: 40px;
 }
 
-.SiteMap-Page ul li a {
+.SiteMap-Page .SiteMapNav ul li a {
     font-family: 'Rubik', sans-serif;
     font-size: 12pt;
 }
 
+.SiteMap-Page .SiteMapNav ul li {
+    list-style-image: url(../images/BulletNav.png);
+    
+} 
 .SiteMap-Page h3 {
     color: black;
 }
-
-
 
 #Banner-SiteMap {
     background-image: url(../images/banner6.jpg);
